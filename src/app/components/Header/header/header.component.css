@@ -38,6 +38,7 @@
 /********************************************/
 .links ul li{
     padding: 0 40px 0 20px;
+    cursor: pointer;
 }
 
 .links ul li a{

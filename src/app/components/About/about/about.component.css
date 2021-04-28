@@ -1,0 +1,98 @@
+/*.curved{
+    background: rgb(172, 10, 64);
+    color: white;
+    height: 100vh;
+    position: relative;
+}
+
+.curved svg{
+    position: absolute;
+    top: 60%;
+}*/
+
+.container-fluid{
+    background: url('/assets/stars.png') , linear-gradient(#301f28,#960954 );
+    padding: 0;
+    position: relative;
+}
+.main{
+    position: relative;
+    height: 100vh;
+    background: white;
+    /*clip-path: polygon(0 0,100% 0 , 100% 0 , 0 100%);*/
+    clip-path: polygon(0 0,60% 0 , 75% 0 , 0 70%);
+}
+
+.main h2{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-size: 50px;
+    font-family: 'Lemon', cursive;
+}
+
+@media (max-width:895px) {
+    .main h2{
+        top: 17%;
+        left: 2%;
+        font-size: 35px;
+    }
+}
+.container-fluid .content{
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    color: white;
+}
+
+.container-fluid .content h4{
+    margin-top: 18px;
+}
+
+
+.skills div{
+    margin-top: 6px;
+    border-radius: 50%;
+    background: white;
+    width: 90px;
+    height: 90px;
+    color: #9e0c5a;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.skills div i{
+    margin-top: 7px;
+    font-size: 25px;
+}
+
+.skills2 p{
+    margin-top: 5px;
+     margin-right: 15px;
+     font-weight: bold;
+    }
+.skills2{
+    display: none !important;
+}
+
+
+@media (max-width:866px) {
+    .skills{
+        display: none !important;
+    }
+
+    .skills2{
+        display: flex !important;
+    }
+
+    .skills2 p{
+        margin-top: 3px;
+        margin-bottom: 0;
+    }
+    .content{
+        top: 30% !important;
+    }
+    
+}
