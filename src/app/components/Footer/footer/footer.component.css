@@ -6,6 +6,7 @@
 .icons .fab{
    padding-top: 10px;
     font-size: 20px;
+    
    
 }
 
@@ -13,10 +14,11 @@
     transform: translateY(-5px);
     cursor: pointer;
     background-color: #ccc;
-    color: #c40a6d;
+    color: #c40a6d !important;
 }
 
 .circle {
+    color: white;
     text-align: center;
      display: inline-block;
      margin: 20px 15px ;
@@ -31,3 +33,6 @@
 
   }
 
+  h3{
+    text-shadow: 2px 2px 17px #30021a;
+  }
