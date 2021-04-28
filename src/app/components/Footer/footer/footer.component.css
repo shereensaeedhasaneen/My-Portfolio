@@ -1,0 +1,33 @@
+.container-fluid {
+    background:#430425;
+    background: linear-gradient(#c40a6d,#430425);
+
+}
+.icons .fab{
+   padding-top: 10px;
+    font-size: 20px;
+   
+}
+
+.icons .circle:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+    background-color: #ccc;
+    color: #c40a6d;
+}
+
+.circle {
+    text-align: center;
+     display: inline-block;
+     margin: 20px 15px ;
+    height: 40px;
+    width: 40px;
+    background-color: #c40a6d;
+    border-radius: 50%;
+    display: inline-block;
+    transition: 0.5s;
+    box-shadow: 0 0 10px #430425, 0 0 40px #c40a6d ;
+    box-shadow: 5px 5px 10px #430425;
+
+  }
+
