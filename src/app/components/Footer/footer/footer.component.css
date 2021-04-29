@@ -1,7 +1,7 @@
 .container-fluid {
     background:#430425;
     background: linear-gradient(#c40a6d,#430425);
-
+position: absolute;
 }
 .icons .fab{
    padding-top: 10px;
@@ -36,3 +36,19 @@
   h3{
     text-shadow: 2px 2px 17px #30021a;
   }
+
+  .wave{
+    position: absolute;
+    /*top: -135%;*/
+    bottom: 91%;
+    left: 0;
+  }
+
+  @media (max-width:500px) {
+    
+    .wave{
+        bottom: 95%;
+    }
+
+    
+}

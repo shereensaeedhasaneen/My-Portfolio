@@ -9,6 +9,7 @@ import { HomepageComponent } from './components/Home Page/homepage/homepage.comp
 import { AboutComponent } from './components/About/about/about.component';
 import { GalleryComponent } from './components/Gallery/gallery/gallery.component';
 import { ContactComponent } from './components/Contact/contact/contact.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,9 @@ import { ContactComponent } from './components/Contact/contact/contact.component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
