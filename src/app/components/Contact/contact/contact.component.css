@@ -24,6 +24,12 @@ p{
     color: #a8a5a7;
 }
 
+input{
+    border: 1px solid #B10962 !important;
+}
+textarea{
+    border: 1px solid #B10962 !important;
+}
 .wave{
     position: absolute;
     bottom: 0;

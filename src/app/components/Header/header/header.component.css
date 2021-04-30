@@ -128,7 +128,7 @@
     color: #ec0d84;
 }
 
-.leftSide button{
+.leftSide a{
     border: 1px solid #fff;
     position: relative;
     padding: 12px;
@@ -141,7 +141,7 @@
     font-weight: bold;
 }
 
-.leftSide button:hover{
+.leftSide a:hover{
     color: #fff;
     background: #cc0c72;
     border: none;
@@ -174,3 +174,8 @@
    opacity: 0.3;
    clip-path: circle(850px at left 950px);
 }
+
+/*.rightside img{
+    margin-top: 20%;
+    margin-left: 5%;
+}*/
