@@ -72,6 +72,7 @@
     margin-top: 5px;
      margin-right: 15px;
      font-weight: bold;
+     border-bottom: 1px solid #fff;
     }
 .skills2{
     display: none !important;
@@ -95,4 +96,10 @@
         top: 30% !important;
     }
     
+}
+
+@media (max-width:499px) {
+    .main{
+        min-height: 150vh;
+    }
 }

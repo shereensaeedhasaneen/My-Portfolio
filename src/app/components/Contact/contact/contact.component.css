@@ -8,6 +8,16 @@ position: relative;
     height: 100vh;
 }
 
+@media (max-width:499px) {
+    section{
+        min-height: 130vh;
+    }
+    form button{
+        margin-left: 13% !important;
+    }
+   
+}
+
 h2{
     font-size: 55px;
     font-weight: 700;

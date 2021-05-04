@@ -52,3 +52,11 @@ position: absolute;
 
     
 }
+
+@media (max-width:499px) {
+  .wave{
+      display: none;
+  }
+ 
+ 
+}

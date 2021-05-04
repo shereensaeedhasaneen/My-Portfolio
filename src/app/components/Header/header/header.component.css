@@ -3,15 +3,23 @@
     position: absolute;
     left: 0;
     right: 0;
-    height: 100vh;
+    height: 105vh;
 }
 .cover
 {
-    height: 100vh;
+    height: 105vh;
     position: relative;
   
 } 
 
+@media (max-width:499px) {
+    .cover{
+        min-height: 170vh;
+    }
+    .overlay{
+        min-height: 170vh;
+    }
+}
 
 /*******************************************/
 .navbar-brand{
